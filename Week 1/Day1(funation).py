@@ -4,35 +4,35 @@
 
 # Create a simple function which add two numbers and return result.
 
-# def add(a,b):
-#     return a+b
+def add(a,b):
+    return a+b
 
-# result = add(5,10)
+result = add(5,10)
 
-# print(result)
+print(result)
 
 # # Create a lambda function which multiply two numbers 
 
-# multiply = lambda num1, num2: num1 * num2
-# num1 = int(input("Enter number 1 : "))
-# num2 = int(input("Enter number 2 : "))
+multiply = lambda num1, num2: num1 * num2
+num1 = int(input("Enter number 1 : "))
+num2 = int(input("Enter number 2 : "))
 
-# result = multiply(num1, num2)
+result = multiply(num1, num2)
 
-# print(result)
+print(result)
 
 # Global variable  (global variable is variable which is delared from outside the function)
 
-# global_var = " I am Nouman sajid "
+global_var = " I am Nouman sajid "
 
-# def Functin1 ():
-#  print("Hellow" , global_var)
+def Functin1 ():
+ print("Hellow" , global_var)
 
-# def Funation2 ():
-#    print("hi", global_var)
+def Funation2 ():
+   print("hi", global_var)
 
-# Functin1()
-# Funation2()
+Functin1()
+Funation2()
 
 # Exercise (Solve problems using funactions)
 
@@ -50,3 +50,12 @@ def recursive_factorial(n):
 
 num = 5
 print ("The factorial of num is ", recursive_factorial(num))
+
+# Problem no 02 :
+# Sorted list of students according to their marks using lambda function.
+
+students = [("Alice", 88), ("Bob", 75), ("Charlie", 92)]
+
+lambda_sorted_students = sorted(students, key=lambda student: student[1], reverse=True)
+
+print(lambda_sorted_students)
