@@ -1,1 +1,1 @@
-# In First week we cover the Pythn basics 
+# In First week we cover the Python basics 
