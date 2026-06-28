@@ -59,3 +59,4 @@ students = [("Alice", 88), ("Bob", 75), ("Charlie", 92)]
 lambda_sorted_students = sorted(students, key=lambda student: student[1], reverse=True)
 
 print(lambda_sorted_students)
+
